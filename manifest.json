@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Site Watch",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "storage",
+      "notifications",
+      "background"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.jpg"
+    }
+    
+  }
+  
